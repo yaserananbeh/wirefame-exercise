@@ -1,0 +1,95 @@
+body{
+    padding: 5px;
+}
+nav{
+    background-color: gray;
+    text-align: center;
+    margin-bottom: 60px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 50px;
+    vertical-align: middle;
+    
+}
+a{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+main{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+    /* background-color: gray; */
+}
+.firstSection{
+    text-align: center;
+}
+.firstSection img{
+    width: 30%;
+    height: 70%;
+    margin: 10px 10px 20px 10px;
+}
+.firstSection .mainImage{
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+.firstSection article{
+    width: 50%;
+}
+.secondSection img:first-child{
+    width: 50%;
+}
+.secondSection article{
+    width: 45%;
+    float: right;
+}
+.secondSection {
+    margin: 40px;
+}
+.secondSection article p {
+    height: 300px;
+    overflow-y: scroll;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-bottom: 60px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.secondSection article h5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 0 40px 0;
+}
+.secondSection article a{
+    margin-top: 50px;
+    padding: 20px 20px; 
+    color: #014d01; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    font-size: 1.5em; 
+    overflow: hidden; 
+    border: 1px solid #39ff14;
+    border-radius: 25px;
+}
+.secondSection article a:hover { 
+    color: #111; 
+    background: #39ff14; 
+    box-shadow: 0 0 50px #39ff14; 
+} 
+    
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: gray;
+    margin-top: 20px;
+    height: 70px;
+}
+footer p{
+    font-size: 60px;
+    color: rgb(184, 184, 184);
+}
