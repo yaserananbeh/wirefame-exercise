@@ -66,7 +66,7 @@ main{
 .secondSection article a{
     margin-top: 50px;
     padding: 20px 20px; 
-    color: #014d01; 
+    color: #019901; 
     letter-spacing: 2px; 
     text-transform: uppercase; 
     text-decoration: none; 
@@ -74,6 +74,7 @@ main{
     overflow: hidden; 
     border: 1px solid #39ff14;
     border-radius: 25px;
+    background-color: black;
 }
 .secondSection article a:hover { 
     color: #111; 
